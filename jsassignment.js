@@ -31,7 +31,7 @@ for(let i=0; i<NFTs.length; i+=1) {
 console.log("\nID: \t\t" + (i+1));
 console.log("Name: \t\t" + NFTs[i].name);
 console.log("SkinColour:\t" + NFTs[i].skinColour);
-console.log("Hair Type:\t" + NFTs.hairType);
+console.log("Hair Type:\t" + NFTs[i].hairType);
 console.log("Shirt Type:\t" + NFTs[i].shirtType);
 }
 
